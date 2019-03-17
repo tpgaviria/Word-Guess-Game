@@ -2,8 +2,8 @@ body {
     max-width: 1024px;
     padding-top: 0%;
     padding-bottom: 0%;
-    background-color: grey;
-    background-image: url("../images/background.jpg");
+    background-color: grey;    
+    background-image: url(../images/background.jpg);
     background-size: 100%;
     margin: 0 auto;
 }
