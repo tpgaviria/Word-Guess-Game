@@ -64,7 +64,12 @@ h3 {
 
 h5 {
     margin-top: 10px;
-    color: #777;
+    color: #c2c2c2;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h6 {
+    color: #c2c2c2;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -78,7 +83,7 @@ h5 {
 .activeWords {
     font-size: 1.5em;
     letter-spacing: 0.3em;
-    color: #777;
+    color: #c2c2c2;
 }
 
 #pictureDisplay {
@@ -118,7 +123,7 @@ is either 768px or less. Merely for cosmetic purposes.
         padding: 10px 16px 10px 16px !important;
     }
     
-    h6 {
+    h5 {
         font-size: 0.75em;
     }
 

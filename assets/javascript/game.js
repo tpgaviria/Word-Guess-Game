@@ -33,7 +33,7 @@ var composerArray = [
         word: "bizet",
         fullName: "Georges Bizet",
         picture: "assets/images/bizet.jpg",
-        songclip: "assets/songclips/bizetcarmen.mp3"
+        songclip: "assets/songclips/bizetcarmenhabanera.mp3"
     },
     {
         word: "brahms",
@@ -94,12 +94,58 @@ var composerArray = [
         fullName: "Gioachino Rossini",
         picture: "assets/images/rossini.jpg",
         songclip: "assets/songclips/rossiniwilliamtell.mp3"
-    }
+    },
     {
-        word: "saint saens",
-        fullName: "Maurice Ravel",
-        picture: "assets/images/ravel.jpg",
-        songclip: "assets/songclips/ravelbolero.mp3"
+        word: "saintsaens",
+        fullName: "Camille Saint Saens",
+        picture: "assets/images/saintsaens.jpg",
+        songclip: "assets/songclips/saintsaensdansemacabre.mp3"
+    },
+    {
+        word: "satie",
+        fullName: "Erik Satie",
+        picture: "assets/images/satie.jpg",
+        songclip: "assets/songclips/satiegymnopedie.mp3"
+    },
+    {
+        word: "shostakovich",
+        picture: "assets/images/shostakovich.jpg",
+        songclip: "assets/songclips/shostakovichwaltzno2.mp3"
+    },
+    {
+        word: "tchaikovsky",
+        picture: "assets/images/tchaikovsky.jpg",
+        songclip: "assets/songclips/tchaikovsky1812.mp3"
+    },
+    {
+        word: "tchaikovsky",
+        picture: "assets/images/tchaikovsky.jpg",
+        songclip: "assets/songclips/tchaikovskynutcracker.mp3"
+    },
+    {
+        word: "tchaikovsky",
+        picture: "assets/images/tchaikovsky.jpg",
+        songclip: "assets/songclips/tchaikovskysugarplum.mp3"
+    },
+    {
+        word: "vivaldi",
+        picture: "assets/images/vivaldi.jpg",
+        songclip: "assets/songclips/vivaldisummer.mp3"
+    },
+    {
+        word: "vivaldi",
+        picture: "assets/images/vivaldi.jpg",
+        songclip: "assets/songclips/vivaldiwinter.mp3"
+    },
+    {
+        word: "wagner",
+        picture: "assets/images/wagner.jpg",
+        songclip: "assets/songclips/wagnerrideofthevalkyries.mp3"
+    },
+    {
+        word: "williams",
+        picture: "assets/images/williams.jpg",
+        songclip: "assets/songclips/williamsimperialmarch.mp3"
     },
 
 ];
@@ -139,6 +185,17 @@ var composerArray = [
     //Setup alphabet array for letter checking
     var alphabetArray = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
     
+
+    function preGame() {
+        if (gameStatus = false) {
+            
+            var scoreRow = document.getElementById("game-score");
+            scoreRow.style.display = "none";
+        }
+    }
+
+    
+
     function letterCheck(guess) {
         //If letter key is press, check if the letter pressed is in the answer.
         if (alphabetArray.indexOf(guess.key) > -1) {
