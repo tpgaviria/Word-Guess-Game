@@ -12,6 +12,7 @@ body {
     padding-top: 30px;
     padding-bottom: 0px;
     margin-bottom: 0px;
+    margin-top: 20px;
     background: rgba(0, 0, 0, 0.65);
 }
 
@@ -103,14 +104,8 @@ h6 {
     font-weight: bold;
 }
 
-/*
-These rules take effect when the browser's width
-is either 768px or less. Merely for cosmetic purposes.
----------------------------------------------------------------------------------------------------- */
-
 @media screen and (max-width: 768px) {
 
-    /* Hamburger Nav Styling Corrections */
     p.ml-2.text-left.mobileBoard, p.mr-2.text-right.mobileBoard {
         text-align: center !important;
     }
