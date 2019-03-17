@@ -94,7 +94,15 @@ var composerArray = [
         fullName: "Gioachino Rossini",
         picture: "assets/images/rossini.jpg",
         songclip: "assets/songclips/rossiniwilliamtell.mp3"
-    }];
+    }
+    {
+        word: "saint saens",
+        fullName: "Maurice Ravel",
+        picture: "assets/images/ravel.jpg",
+        songclip: "assets/songclips/ravelbolero.mp3"
+    },
+
+];
 
     console.log(composerArray);
     
@@ -332,6 +340,7 @@ var composerArray = [
     
         //Remove greenColor from currentWord if user was successful previously.
         removeCorrect();
-    }
 
-    console.log(pictureDisplay);
+
+        
+    }

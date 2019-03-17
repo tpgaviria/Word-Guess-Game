@@ -8,6 +8,7 @@
   <title>Guess the Composer - Who Wrote the Piece?</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"       integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/css/style.css" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=IM+Fell+English:400i" rel="stylesheet">
 </head>
 
 <body class="text-center">
@@ -52,7 +53,6 @@
             <div class="col-md-12 parent audio">
 
                 <audio controls autoplay id="song"> 
-                    <!-- <source src=""> -->
                   </audio>
 
               <h6>Please any key to get started!</h6>
@@ -61,13 +61,16 @@
         </div>
         <!--Active Word Display (Current Word, Answer Reveal (if wrong), Guesses Made)-->
         <div class="row">
-          <div class="col-md-12">
+            <div class="col-md-6">
               <h5>Current Word</h5>
               <p class="activeWords"><span id="currentWordDisplay"></span></p>
               <p class="activeWords" id="revealedAnswerDisplay"></p>
-              <p class="activeWords" id="correctDisplay"></p>      
-              <h6>Letters Already Guessed</h6>
+              <p class="activeWords" id="correctDisplay"></p>
+              </div>
+              <div class="col-md-6">    
+              <h5>Letters Already Guessed</h5>
               <p class="activeWords"><span id="guessesMadeDisplay"></span></p>
+            </div>
           </div>
         </div>
       </div>

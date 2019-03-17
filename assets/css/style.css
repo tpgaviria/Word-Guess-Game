@@ -12,12 +12,14 @@ body {
     padding-top: 30px;
     padding-bottom: 0px;
     margin-bottom: 0px;
+    background: rgba(0, 0, 0, 0.65);
 }
 
 p {
     color: #bbbbbb;
     padding: 0;
     margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .audio {
@@ -30,8 +32,22 @@ p {
 }
 
 .header {
-    margin-bottom: 2.5%;
+    margin-bottom: 0;
+    font-family: 'IM Fell English', serif;
 }
+
+h1 {
+    font-size: 60pt;
+    color: #cfcfcf;
+    margin-bottom: 0px;
+}
+
+h3 {
+    font-size: 25pt;    
+    color: #a3a3a3;
+
+}
+
 
 .parent {
     width: 100%;
@@ -49,16 +65,14 @@ p {
 h5 {
     margin-top: 10px;
     color: #777;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-h6 {
-    margin-top:10px;
-    color: #777;
-}
 
-.mainDisplay {
-    background-color: black;
+.mainDisplay {    
+    background:transparent;
     max-width: 90%;
+    padding-top: 0px;
 }
 
 .activeWords {
@@ -68,7 +82,7 @@ h6 {
 }
 
 #pictureDisplay {
-    max-height: 500px;
+    max-height: 450px;
 }
 
 #revealedAnswerDisplay {
