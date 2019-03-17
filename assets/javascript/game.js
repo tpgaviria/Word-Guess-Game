@@ -243,6 +243,10 @@ var composerArray = [
     function displayImage() {
         var pictureDisplay = document.querySelector("#pictureDisplay");
         pictureDisplay.src = composerPicture;
+
+        var song = document.querySelector("#song");
+        song.src = composerSong;
+
     }
     
     //Reveals Pokemon identiy regardless of whether user was able to solve. 
@@ -324,7 +328,7 @@ var composerArray = [
         revealedAnswerDisplay.textContent = "";
     
         //Play "Who's that composer?" audio.
-       // document.getElementById('whosThat').play();
+        document.getElementById('song').play();
     
         //Remove greenColor from currentWord if user was successful previously.
         removeCorrect();

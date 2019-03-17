@@ -10,13 +10,23 @@ body {
 
 .jumbotron {
     padding-top: 30px;
-    padding-bottom: 00px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 p {
-    color: white;
+    color: #bbbbbb;
     padding: 0;
     margin: 0;
+}
+
+.audio {
+    margin-top:20px;
+}
+
+#song {
+    width: 60%;
+
 }
 
 .header {
@@ -36,8 +46,13 @@ p {
     width: 100%;
 }
 
-h5, h6 {
-    margin-top: 2.5%;
+h5 {
+    margin-top: 10px;
+    color: #777;
+}
+
+h6 {
+    margin-top:10px;
     color: #777;
 }
 
